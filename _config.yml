@@ -1,0 +1,14 @@
+# Site settings
+title: Elephants Don't Exist
+email: dev@elephantsdontexist.com
+description: > # this means to ignore newlines until "baseurl:"
+  elephants
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://elephantsdontexist.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username: agamble
+paginate: 1
+paginate_path: "/:num/"
+
+# Build settings
+markdown: kramdown

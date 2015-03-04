@@ -1,0 +1,47 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 10px solid #800000;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.post {
+  margin-bottom: 150px;
+}
+
+.post-header {
+  height: 150px;
+  padding-top: 100px;
+  text-align: center;
+
+  h1 {
+    font-family: cala;
+    font-size: 30pt;
+  }
+}
+
+.post-content {
+  p {
+    text-align: justify;
+  }
+
+  margin-bottom: 50px;
+}
+
+a.btn {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  &.prev {
+    float: left;
+  }
+
+  &.next {
+    float: right;
+  }
+}
+
